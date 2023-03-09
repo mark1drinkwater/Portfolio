@@ -41,7 +41,7 @@ function stopTrain() {
 
 //Check the train's position and determine whether it has crashed
 function checkPosition(currentPosition) {
-    if (currentPosition = trackLength) {
+    if (currentPosition >= trackLength) {
         console.log("Crash!");
         alert("Crash!");
         alert("Reload page to restart the game.");        
