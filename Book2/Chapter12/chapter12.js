@@ -1,4 +1,4 @@
-let trainSpeed = 250;
+let trainSpeed = 200;
 let trainPosition = 0;
 let animation;
 let trackLength = 260;
@@ -48,5 +48,3 @@ function checkPosition(currentPosition) {
         clearInterval(animation);        
     }
 }    
-
-let myFunction = (a, b) => a * b;
